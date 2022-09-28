@@ -1,0 +1,15 @@
+{
+  "name": "heroku_json_server",
+  "version": "1.0.0",
+  "description": "->npm install -g heroku ->heroku --version ->npm init -> start file(main) -> server.js ->npm i json-server ->manually create .gitignore,server.js,README.md and paste the codes already which is there in the file ->create db.json ->Initialize GIT ->Create a heroku login keep signed in ->heroku login in Terminal ->heroku create heroku-json-server-fakedb ->Have everything up-to-date in your application - maintain GIT ->git push heroku master ->heroku open",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
